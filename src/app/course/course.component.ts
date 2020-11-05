@@ -1,4 +1,3 @@
-
 import {AfterViewInit, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import { MatPaginator } from "@angular/material/paginator";

@@ -19,10 +19,10 @@ export class LessonsDataSource implements DataSource<Lesson> {
     }
 
     loadLessons(courseId:number,
-        filter:string,
-        sortDirection:string,
-        pageIndex:number,
-        pageSize:number) {
+                filter:string,
+                sortDirection:string,
+                pageIndex:number,
+                pageSize:number) {
 
         this.loadingSubject.next(true);
 

@@ -22,7 +22,7 @@ import { MatTableModule } from "@angular/material/table";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import {CoursesService} from "./services/courses.service";
 import {HttpClientModule} from "@angular/common/http";
-import {CourseResolver} from "./services/courses.resolver";
+import {CourseResolver} from "./services/course.resolver";
 
 @NgModule({
     declarations: [
